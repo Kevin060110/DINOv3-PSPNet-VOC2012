@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.deps/
+data/
+checkpoints/
+external/
+# Keep compact JSON experiment records, but never commit model checkpoints.
+outputs/**/*.pth
+outputs/**/*.pt
+*.pth
+*.pt
